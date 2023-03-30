@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(206, 237, 249);
+    font-family: "infini";
+    text-align: center;
+    margin-top: 20px;
+}
+
+@font-face {
+    font-family: "Infini";
+    src: url("infini-gras.woff") format('woff')
+}
+
+@font-face {
+    font-family: "Picto";
+    src: url(infini-picto.woff); format('woff')
+}
+
+h1 {
+    font-family: "PICTO";
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "INFINI";
+    width: 50%;
+}
+
+h3 {
+    font-family: "INFINI";
+    text-align: right;
+}
