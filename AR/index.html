@@ -48,18 +48,18 @@
         <!-- This is the object <a-object> 
           Edit size, position, texture and animation here -->
 
-        <a-box 
+        <a-cylinder 
         width="2.1"
         height="3.45"
         depth="0.1"
         position="0 0 0" 
         rotation="0 45 0"               
-        src="bark.jpg"
+        src="bark.jpeg"
         transparent="true"
         alphaTest= "0.5"
         env-map="#env"
-        metalness="1.0"
-        roughness="0.0"                  
+        metalness="0.0"
+        roughness="1.0"                  
         animation="
         property: rotation; 
         from: 0 0 0; 
@@ -68,7 +68,7 @@
         dur: 10000; 
         loop:true"               
         >                 
-        </a-box>
+        </a-cylinder>
 
         <a-box 
         width="2.1"
@@ -76,7 +76,7 @@
         depth="0.1"
         position="2 0 -4" 
         rotation="0 45 0"               
-        src="bark.jpg"
+        src="bark.jpeg"
         transparent="true"
         alphaTest= "0.5"
         env-map="#env"
@@ -98,7 +98,7 @@
         depth="0.1"
         position="-2 0 2" 
         rotation="0 45 0"               
-        src="bark.jpg"
+        src="bark.jpeg"
         transparent="true"
         alphaTest= "0.5"
         env-map="#env"
@@ -117,7 +117,7 @@
         <a-sphere
         radius="1.2"
         position= "2 0 2"
-        src="bark.jpg"
+        src="bark.jpeg"
         env-map="#env"
         metalness="0.9"
         roughness="0.1"                  
