@@ -5,6 +5,66 @@ body {
     margin-top: 20px;
 }
 
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+
+    
+}
+div.details{
+    color: rgb(248, 255, 233);
+    font-family: Arial;
+    text-align: left;
+    font-weight: normal;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div.title{
+    text-align: center;
+    color: rgb(185, 255, 185);
+    font-family: Infini;
+    font-size: 40px;
+    letter-spacing: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+}
+div.text{
+    text-align: Right;
+    font-family: Arial;
+    letter-spacing: 0px;
+    font-size: 16px;
+    color: rgb(248, 255, 233);
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    text-indent: 20px;
+}
+
+div.H2{
+    text-align: Left;
+    font-family: Infini;
+    letter-spacing: 3px;
+    font-size: 30px;
+    color: rgb(185, 255, 185);
+    line-height: 30px;
+}
+
+div.subh{
+    text-align: Right;
+    font-family: Arial;
+    letter-spacing: 0px;
+    font-size: 24px;
+    color: rgb(248, 255, 233);
+    line-height: 30px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
 @font-face {
     font-family: "Infini";
     src: url("infini-gras.woff") format('woff')
@@ -13,20 +73,5 @@ body {
 @font-face {
     font-family: "Picto";
     src: url(infini-picto.woff); format('woff')
-}
 
-h1 {
-    font-family: "PICTO";
-    font-size: 50px;
-    text-align: center;
-}
-
-h2 {
-    font-family: "INFINI";
-    width: 50%;
-}
-
-h3 {
-    font-family: "INFINI";
-    text-align: right;
 }
