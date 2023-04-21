@@ -48,13 +48,13 @@
         <!-- This is the object <a-object> 
           Edit size, position, texture and animation here -->
 
-      <a-Cylinder 
+          <a-Cylinder 
           width="2"
-          height="2"
+          height="4"
           depth=".3"
           position="0 0 -5" 
           rotation="0 45 0"               
-          src="bark.jpeg"
+          src="#texture"
           transparent="true"
           alphaTest= "0.5"
           env-map="#env"
@@ -63,212 +63,214 @@
           animation="
           property: rotation; 
           from: 90 0 -10; 
-          to: 90 0 15; 
+           to: 90 0 15; 
           easing: linear; 
           dur: 60; 
           loop:true"               
           >                 
     </a-Cylinder>
-
-<a-box
-     width="1.5"
-     height="1"
-     Depth=".1"
-     position= "2 2.5 -4"
-     src="leaf.jpeg"
-     env-map="#env"
-     metalness="0.9"
-     roughness="0.1"                  
-     animation="
-    property: rotation; 
-    from: 4 0 -10; 
-    to: 0 0 15; 
-    easing: linear; 
-    dur: 60; 
-    loop:true"
+   
+ <!--  Try changing the metalness to 0.2 and the roughness to 0.0  -->
+   
+    <a-box
+           width="1.5"
+           height="1"
+           Depth=".1"
+           position= "2 2.5 -4"
+           src="#texture"
+           env-map="#env"
+           metalness="0.9"
+           roughness="0.1"                  
+           animation="
+          property: rotation; 
+          from: 90 0 -10; 
+           to: 90 0 15;  
+          easing: linear; 
+          dur: 60; 
+          loop:true"
+           
+             >                  
+     </a-box> 
      
-       >                  
-</a-box> 
-
-<a-box
-     width="1.5"
-     height="1"
-     Depth=".1"
-     position= "-2 2.2 -4"
-     src="leaf.jpeg"
-     env-map="#env"
-     metalness="0.9"
-     roughness="0.1"                  
-     animation="
-    property: rotation; 
-    from: 4 0 -10; 
-    to: 0 0 15; 
-    easing: linear; 
-    dur: 60; 
-    loop:true"
+     <a-box
+           width="1.5"
+           height="1"
+           Depth=".1"
+           position= "-2 2.2 -4"
+           src="#texture"
+           env-map="#env"
+           metalness="0.9"
+           roughness="0.1"                  
+           animation="
+          property: rotation; 
+          from: 90 0 -10; 
+           to: 90 0 15;  
+          easing: linear; 
+          dur: 60; 
+          loop:true"
+           
+             >                  
+     </a-box>
      
-       >                  
-</a-box>
-
-<a-box
-     width="1.5"
-     height="1"
-     Depth=".1"
-     position= "-.4 2.7 -4"
-     src="leaf.jpeg"
-     env-map="#env"
-     metalness="0.9"
-     roughness="0.1"                  
-     animation="
-    property: rotation; 
-    from: 4 0 -10; 
-    to: 0 0 15; 
-    easing: linear; 
-    dur: 60; 
-    loop:true"
+     <a-box
+           width="1.5"
+           height="1"
+           Depth=".1"
+           position= "-.4 2.7 -4"
+           src="#texture"
+           env-map="#env"
+           metalness="0.9"
+           roughness="0.1"                  
+           animation="
+          property: rotation; 
+          from: 90 0 -10; 
+           to: 90 0 15; 
+          easing: linear; 
+          dur: 60; 
+          loop:true"
+           
+             >                  
+     </a-box>
+   
+     <a-box
+           width="1.5"
+           height="1"
+           Depth=".1"
+           position= "-1.2 3 -4"
+           src="#texture"
+           env-map="#env"
+           metalness="0.9"
+           roughness="0.1"                  
+           animation="
+          property: rotation; 
+          from: 90 0 -10; 
+           to: 90 0 15; 
+          easing: linear; 
+          dur: 60; 
+          loop:true"
+           
+             >                  
+     </a-box>
      
-       >                  
-</a-box>
-
-<a-box
-     width="1.5"
-     height="1"
-     Depth=".1"
-     position= "-1.2 3 -4"
-     src="leaf.jpeg"
-     env-map="#env"
-     metalness="0.9"
-     roughness="0.1"                  
-     animation="
-    property: rotation; 
-    from: 4 0 -10; 
-    to: 0 0 15; 
-    easing: linear; 
-    dur: 60; 
-    loop:true"
+     <a-box
+           width="1.5"
+           height="1"
+           Depth=".1"
+           position= ".5 1.5 -4"
+           src="#texture"
+           env-map="#env"
+           metalness="0.9"
+           roughness="0.1"                  
+           animation="
+          property: rotation; 
+          from: 90 0 -10; 
+           to: 90 0 15; 
+          easing: linear; 
+          dur: 60; 
+          loop:true"
+           
+             >                  
+     </a-box>
      
-       >                  
-</a-box>
-
-<a-box
-     width="1.5"
-     height="1"
-     Depth=".1"
-     position= ".5 1.5 -4"
-     src="leaf.jpeg"
-     env-map="#env"
-     metalness="0.9"
-     roughness="0.1"                  
-     animation="
-    property: rotation; 
-    from: 4 0 -10; 
-    to: 0 0 15; 
-    easing: linear; 
-    dur: 60; 
-    loop:true"
+     <a-box
+           width="1.5"
+           height="1"
+           Depth=".1"
+           position= ".4 4 -4"
+           src="#texture"
+           env-map="#env"
+           metalness="0.9"
+           roughness="0.1"                  
+           animation="
+          property: rotation; 
+          from: 90 0 -10; 
+           to: 90 0 15;  
+          easing: linear; 
+          dur: 60; 
+          loop:true"
+           
+             >                  
+     </a-box>
      
-       >                  
-</a-box>
-
-<a-box
-     width="1.5"
-     height="1"
-     Depth=".1"
-     position= ".4 4 -4"
-     src="leaf.jpeg"
-     env-map="#env"
-     metalness="0.9"
-     roughness="0.1"                  
-     animation="
-    property: rotation; 
-    from: 4 0 -10; 
-    to: 0 0 15; 
-    easing: linear; 
-    dur: 60; 
-    loop:true"
+     <a-box
+           width="1.5"
+           height="1"
+           Depth=".1"
+           position= "3 3.5 -4"
+           src="#texture"
+           env-map="#env"
+           metalness="0.9"
+           roughness="0.1"                  
+           animation="
+          property: rotation; 
+          from: 90 0 -10; 
+           to: 90 0 15; 
+          easing: linear; 
+          dur: 60; 
+          loop:true"
+           
+             >                  
+     </a-box>
+      
+     <a-box
+           width="1.5"
+           height="1"
+           Depth=".1"
+           position= "-3 3.5 -4"
+           src="#texture"
+           env-map="#env"
+           metalness="0.9"
+           roughness="0.1"                  
+           animation="
+          property: rotation; 
+          from: 90 0 -10; 
+           to: 90 0 15;  
+          easing: linear; 
+          dur: 60; 
+          loop:true"
+           
+             >                  
+     </a-box>
      
-       >                  
-</a-box>
-
-<a-box
-     width="1.5"
-     height="1"
-     Depth=".1"
-     position= "3 3.5 -4"
-     src="leaf.jpeg"
-     env-map="#env"
-     metalness="0.9"
-     roughness="0.1"                  
-     animation="
-    property: rotation; 
-    from: 4 0 -10; 
-    to: 0 0 15; 
-    easing: linear; 
-    dur: 60; 
-    loop:true"
+     <a-box
+           width="1.5"
+           height="1"
+           Depth=".1"
+           position= "-3 1.5 -4"
+           src="#texture"
+           env-map="#env"
+           metalness="0.9"
+           roughness="0.1"                  
+           animation="
+          property: rotation; 
+          from: 90 0 -10; 
+           to: 90 0 15; 
+          easing: linear; 
+          dur: 60; 
+          loop:true"
+           
+             >                  
+     </a-box>
      
-       >                  
-</a-box>
-
-<a-box
-     width="1.5"
-     height="1"
-     Depth=".1"
-     position= "-3 3.5 -4"
-     src="leaf.jpeg"
-     env-map="#env"
-     metalness="0.9"
-     roughness="0.1"                  
-     animation="
-    property: rotation; 
-    from: 4 0 -10; 
-    to: 0 0 15; 
-    easing: linear; 
-    dur: 60; 
-    loop:true"
-     
-       >                  
-</a-box>
-
-<a-box
-     width="1.5"
-     height="1"
-     Depth=".1"
-     position= "-3 1.5 -4"
-     src="leaf.jpeg"
-     env-map="#env"
-     metalness="0.9"
-     roughness="0.1"                  
-     animation="
-    property: rotation; 
-    from: 4 0 -10; 
-    to: 0 0 15; 
-    easing: linear; 
-    dur: 60; 
-    loop:true"
-     
-       >                  
-</a-box>
-
-<a-box
-     width="1.5"
-     height="1"
-     Depth=".1"
-     position= "1.2 3 -4"
-     src="leaf.jpeg"
-     env-map="#env"
-     metalness="0.9"
-     roughness="0.1"                  
-     animation="
-    property: rotation; 
-    from: 4 0 -10; 
-    to: 0 0 15; 
-    easing: linear; 
-    dur: 60; 
-    loop:true"
-     
-       >                  
-</a-box>       
+      <a-box
+           width="1.5"
+           height="1"
+           Depth=".1"
+           position= "1.2 3 -4"
+           src="#texture"
+           env-map="#env"
+           metalness="0.9"
+           roughness="0.1"                  
+           animation="
+          property: rotation; 
+          from: 90 0 -10; 
+           to: 90 0 15;  
+          easing: linear; 
+          dur: 60; 
+          loop:true"
+           
+             >                  
+     </a-box>
 
         <!-- !!! Do not remove Marker 1 !!! -->
       </a-marker>    
