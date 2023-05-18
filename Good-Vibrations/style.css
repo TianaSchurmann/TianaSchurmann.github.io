@@ -1,0 +1,152 @@
+body {
+    background-color: aquamarine;
+    margin: 0px;
+    font-size: 36px;
+}
+
+img {
+    width: 100%;
+}
+
+div.row {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+div.col {
+    outline: 2px solid red;
+    height: 400px;
+}
+
+div.width100 {
+    width: 100%;
+}
+
+div.width50 {
+    width: 50%;   
+}
+
+div.width100 {
+    width: 100%;   
+}
+
+div.width16 {
+    width: 16.66%;
+}
+
+div.width66 {
+    width: 66.66%;
+    background-image: url("bike.JPG");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+}
+
+div.width33 {
+    width:33.33%;
+    background-image: url("shrub.JPG");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+}
+
+div.width20 {
+    width: 20%;
+}
+
+div.bgred {
+    background-color: red;
+}
+
+div.hero {
+    outline: 2px solid blue;
+    background-color: red;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 700px;
+}
+
+div.hero2   {
+    outline: 2px solid blue;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+div.web   {
+    outline: 2px solid blue;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+video.webcam {
+    width:100%;
+    height:100vh;
+    object-fit:cover;
+  }
+
+
+div.menu {
+    background-color: beige;
+    top: 40px;
+    left: 90%;
+    font-size: 25px;
+    position: fixed;
+    
+}
+
+div.menu:hover {
+    background-color: red;
+}
+
+div.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    object-fit:scale-down;
+}
+
+div.title {
+    background-color: beige;
+    top: 40px;
+    left: 40%;
+    position: fixed;
+}
+
+div.title:hover {
+    background-color: red;
+}
+
+div.img {
+    object-fit: cover;
+}
+
+div.coloranimation {
+    background-color: red;
+    animation: name 5s infinite;
+
+}
+
+@keyframes backgroundcolor {
+    0%{
+        background-color: aqua;
+        width: 16.66%;
+    }
+
+    50%{
+        background-color: rgb(0, 78, 78);
+        width: 66.66%;
+    }
+
+    100%{
+        background-color: aqua;
+        width: 16.66%;
+    }
+}
