@@ -179,34 +179,28 @@ div.two {
 }
 
 div.three {
-    background-image: url("table.JPG");
+    background-image: url("bike.JPG");
     background-size: cover;    
 }
 
 div.four {
-    background-image: url("table.JPG");
+    background-image: url("shrub.JPG");
     background-size: cover;    
 }
 
 div.five {
-    background-image: url("table.JPG");
+    background-image: url("view.JPG");
     background-size: cover;    
 }
 
 div.six {
-    background-image: url("table.JPG");
+    background-image: url("grass.JPG");
     background-size: cover;    
 }
 
 div.seven {
-    background-image: url("table.JPG");
+    background-image: url("cyclist.JPG");
     background-size: cover;    
-}
-
-div.five {
-    background-image: url("table.JPG");
-    background-size: cover;   
-    outline: 1px solid yellow; 
 }
 
 div.eight {
@@ -216,13 +210,13 @@ div.eight {
 }
 
 div.nine {
-    background-image: url("table.JPG");
+    background-image: url("view.JPG");
     background-size: cover;   
     outline: 1px solid rgb(95, 212, 95); 
 }
 
 div.ten {
-    background-image: url("table.JPG");
+    background-image: url("cyclist.JPG");
     background-size: cover;
     outline: 1px solid green;    
 }
