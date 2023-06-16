@@ -148,16 +148,27 @@ div.title {
     position: fixed;
     scroll-padding-left: 100%;
     padding-top:10px;
-    font-family: infini;
+    font-family: Infini;
 }
 
 div.row {
+    font-family: Infini;
     background-color: beige;
     bottom: 5vh;
     width: 100%;
     position: fixed;
     scroll-padding-left: 100%;
 }
+
+div.credits {
+    left:5px;
+    bottom: 1vh;
+    position: fixed;
+    color:white;
+    font-size:9px;
+    font-family: infini;
+}
+
 
 div.title-animation {
 animation-duration: 10s;
