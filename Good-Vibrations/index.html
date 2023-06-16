@@ -10,14 +10,11 @@
     <script>
         window.onload = function() {
 
-            comsole.log("Success!");
         //add constraints object
-        var constraints = { audio: false,
-                    video: true};
+        var constraints = {audio: false, video: true};
 
         //call getUserMedia, then the magic
     navigator.mediaDevices.getUserMedia(constraints).then(function(mediaStream){
-        comsole.log("Success");
     var video = document.querySelector('video');
     video.srcObject = mediaStream;
     video.play();
@@ -46,23 +43,22 @@
 </head>
 <body>
 
-    
     <div class="title">
         <marquee direction="right">Good Vibrations Good Vibrations Good Vibrations Good Vibrations Good Vibrations Good Vibrations Good Vibrations Good Vibrations Good Vibrations Good Vibrations Good Vibrations Good Vibrations Good Vibrations Good Vibrations Good Vibrations Good Vibrations Good Vibrations Good Vibrations Good Vibrations Good Vibrations Good Vibrations Good Vibrations 
+            
         </marquee>
 </div>
 
-<div class="sub">
-    Click Anywhere to Teleport
-</div>
-
     <div class="hero width100 one">
-        <video class="webcam"></video> 
+        <div class="video-container">
+            <video class="webcam"></video> 
+            <div class="teleport">Click to teleport</div>
+        </div>
     </div>
 
     <div class="row width100">
-    <audio class="music" controls><source src="LOFI.mp3"></audio>
-</div>
+        <audio class="music" controls><source src="LOFI.mp3"></audio>
+    </div>
 
 
     

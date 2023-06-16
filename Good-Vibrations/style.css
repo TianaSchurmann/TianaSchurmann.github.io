@@ -1,7 +1,13 @@
+@font-face {
+    font-family: Infini;
+    src: url(infini-gras.woff);
+}
+
 body {
     background-color: rgb(255, 255, 255);
     margin: 0px;
     font-size: 36px;
+    height: 100vh;
 }
 
 img {
@@ -65,7 +71,7 @@ div.bgred {
 div.hero {
     margin-top: 0px;
     margin-bottom: 0px;
-    height: 700px;
+    height: 100%;
 }
 
 div.hero2   {
@@ -86,14 +92,34 @@ div.web   {
     text-align: left;
 }
 
+div.video-container {
+    height:40vh;
+    width:20vh;
+    position:fixed;
+    left: calc(50vw - 10vh);
+    top: calc(45vh);
+}
+
 video.webcam {
+    margin:auto;
     height:30vh;
+    width:20vh;
     object-fit:cover;
-    position: fixed;
-    top: 400px;
-    margin-left: 600px;
   }
 
+div.teleport {
+    margin:auto;
+    border-radius: 10px;
+    height:4vh;
+    line-height: 4vh;
+    width:20vh;
+    font-size: 15px;
+    color: #000000;
+    background-color: beige;
+    text-align:center;
+    cursor:pointer;
+    font-family: infini;
+}
 
 div.menu {
     background-color: beige;
@@ -117,15 +143,17 @@ div.row2 {
 
 div.title {
     background-color: beige;
-    top: 40px;
+    top: 5vh;
     width: 100%;
     position: fixed;
     scroll-padding-left: 100%;
+    padding-top:10px;
+    font-family: infini;
 }
 
 div.row {
     background-color: beige;
-    bottom: 40px;
+    bottom: 5vh;
     width: 100%;
     position: fixed;
     scroll-padding-left: 100%;
@@ -136,6 +164,10 @@ animation-duration: 10s;
 }
 
 div.title:hover {
+    background-color: rgb(77, 166, 103);
+}
+
+div.teleport:hover {
     background-color: rgb(77, 166, 103);
 }
 
@@ -169,54 +201,60 @@ div.text {
 }
 
 div.one {
-    background-image: url("tree.JPG");
+    background-image: url("purple.JPG");
     background-size: cover;    
 }
 
 div.two {
-    background-image: url("table.JPG");
+    background-image: url("leafb.jpg");
     background-size: cover;    
 }
 
 div.three {
-    background-image: url("bike.JPG");
+    background-image: url("city.JPG");
     background-size: cover;    
 }
 
 div.four {
-    background-image: url("shrub.JPG");
+    background-image: url("orange.JPG");
     background-size: cover;    
 }
 
 div.five {
-    background-image: url("view.JPG");
+    background-image: url("light.JPG");
     background-size: cover;    
 }
 
 div.six {
-    background-image: url("grass.JPG");
+    background-image: url("mountain.JPG");
     background-size: cover;    
 }
 
 div.seven {
-    background-image: url("cyclist.JPG");
+    background-image: url("sky.JPG");
     background-size: cover;    
 }
 
+div.five {
+    background-image: url("flower.JPG");
+    background-size: cover;   
+    outline: 1px solid yellow; 
+}
+
 div.eight {
-    background-image: url("table.JPG");
+    background-image: url("bug.JPG");
     background-size: cover;   
     outline: 1px solid red; 
 }
 
 div.nine {
-    background-image: url("view.JPG");
+    background-image: url("table.JPG");
     background-size: cover;   
     outline: 1px solid rgb(95, 212, 95); 
 }
 
 div.ten {
-    background-image: url("cyclist.JPG");
+    background-image: url("table.JPG");
     background-size: cover;
     outline: 1px solid green;    
 }
@@ -225,7 +263,9 @@ div.ten {
 
 audio.music {
   display;
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
 }
 
 marquee.right  {
@@ -237,8 +277,4 @@ marquee.right  {
     50%{
         opacity: 0%;
     }
-}
-
-div.sub {
-    position: sticky;
 }
