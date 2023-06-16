@@ -238,3 +238,7 @@ marquee.right  {
         opacity: 0%;
     }
 }
+
+div.sub {
+    position: sticky;
+}
